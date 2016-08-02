@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-export default class CMSComponent extends React.Component{
+export default class Text extends React.Component{
     constructor(options=false){
         super();
         this.options = options;

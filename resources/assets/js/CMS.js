@@ -1,6 +1,6 @@
-import CMSComponent from './CMSComponent';
-import LoginModal from './LoginModal';
-import MetaModal from './MetaModal';
+import CMSComponent from './Block/Text';
+import LoginModal from './Modal/Login';
+import MetaModal from './Modal/Meta';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Snackbar from 'material-ui/Snackbar';
@@ -13,8 +13,7 @@ import IconButton from 'material-ui/IconButton/IconButton';
 import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
 import Divider from 'material-ui/Divider';
-import ArrowDropRight from 'material-ui/svg-icons/navigation-arrow-drop-right';
-import SettingsIcon from 'material-ui/svg-icons/action/settings';
+
 import EditIcon from 'material-ui/svg-icons/editor/mode-edit';
 import PowerIcon from 'material-ui/svg-icons/action/power-settings-new';
 import MetaIcon from 'material-ui/svg-icons/action/receipt';

@@ -5,7 +5,7 @@ String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
-export default class MetaItem extends React.Component {
+export default class Meta extends React.Component {
     constructor(options=false){
         super();
         this.options = options;
