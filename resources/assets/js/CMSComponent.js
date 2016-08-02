@@ -20,7 +20,7 @@ export default class CMSComponent extends React.Component{
     */
     handleOnBlur(){
         this.setState({editable: false});
-        this.state.html = this.htmlEl.innerHTML;
+        this.state.html = this.htmlEl.innerHTML.replace(/<(?:.|\n)*?>/gm, '');
         var splittedId = this.props.id.split('-');
         this.block = splittedId[3];
         this.path = splittedId[2];
