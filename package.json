@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-es2017": "^1.4.0",
+    "bootstrap-sass": "^3.3.0",
+    "browserify-css": "^0.9.1",
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0"
+  },
+  "dependencies": {
+    "cssify": "^1.0.2",
+    "material-ui": "^0.15.2",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-tap-event-plugin": "^1.0.0"
+  }
+}

@@ -42,7 +42,7 @@ Define cms blocks in your views. There are two types of block right now:
 ### text()
 
 ```php
-   {{!! $cms->text()->Title() !!}}
+   {!! $cms->text()->Title() !!}
 ```
 **Output:**
  ``` html
@@ -51,7 +51,7 @@ Define cms blocks in your views. There are two types of block right now:
 ### meta()
 Use the function call to set the name attribute like:
 ``` php
-   {{!! $cms->meta()->description() !!}}
+   {!! $cms->meta()->description() !!}
 ```
  **Output:**
  ``` html
@@ -62,7 +62,7 @@ Use the function call to set the name attribute like:
 ##### Title()
  Generates a Title Tag like:
  ```php
-    {{!! $cms->meta()->title() !!}}
+    {!! $cms->meta()->title() !!}
  ```
  **Output:**
  ``` html

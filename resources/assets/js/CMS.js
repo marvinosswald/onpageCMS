@@ -23,7 +23,7 @@ import MetaIcon from 'material-ui/svg-icons/action/receipt';
 
 
 const menuStyle={
-    position: "absolute",
+    position: "fixed",
     right: "10px",
     bottom: "10px"
 };

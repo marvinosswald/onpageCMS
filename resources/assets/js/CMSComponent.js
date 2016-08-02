@@ -53,6 +53,7 @@ export default class CMSComponent extends React.Component{
                 onBlur: this.handleOnBlur,
                 //onDoubleClick: this.handleDoubleClick,
                 className: 'active',
+                style:{border:"1px dotted"},
                 contentEditable: this.state.editable,
                 dangerouslySetInnerHTML: {__html: this.props.html}
             }),
