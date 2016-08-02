@@ -22,6 +22,6 @@
   "post-update-cmd": [
     "php artisan clear-compiled",
     "php artisan optimize",
-    "php artisan vendor:publish --provider='marvinosswald\OnpageCMS\Providers\OnpageCMSServiceProvider'"
+    "php artisan vendor:publish --provider=\"marvinosswald\\OnpageCMS\\Providers\\OnpageCMSServiceProvider\""
   ]
 }
