@@ -1,0 +1,1 @@
+import React from 'react';import ReactDOM from 'react-dom';import CMS from './CMS';import injectTapEventPlugin from 'react-tap-event-plugin';injectTapEventPlugin();var e = document.createElement("div");e.id = 'cmsApp';document.body.appendChild(e);ReactDOM.render(<CMS/>,document.getElementById('cmsApp'));

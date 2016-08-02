@@ -1,0 +1,27 @@
+{
+  "name": "marvinosswald/OnpageCMS",
+  "description": "A CMS without Admin Panel but an js overlay",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marvin Oßwald",
+      "email": "marvin.osswald@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "orchestra/testbench": "~3.2",
+    "phpunit/phpunit": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "marvinosswald\\OnpageCMS\\" : "src/"
+    }
+  },
+  "post-update-cmd": [
+    "php artisan clear-compiled",
+    "php artisan optimize",
+    "php artisan vendor:publish --provider='marvinosswald\OnpageCMS\Providers\OnpageCMSServiceProvider'"
+  ]
+}
