@@ -9,7 +9,7 @@
       "email": "marvin.osswald@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require-dev": {
     "orchestra/testbench": "~3.2",
     "phpunit/phpunit": "^5.4"
